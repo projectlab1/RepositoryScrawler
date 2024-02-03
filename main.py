@@ -43,20 +43,69 @@ parameters = {'Authorization': 'Bearer '+accessToken}
     #print(branchNames)
 
 url = "https://api.github.com/graphql"
-
+x='kagglehub'
 body = """
 query {
-  repoA: repository(owner:"Kaggle", name:"kagglehub") {
+  repoA: repository(owner:"Kaggle", name:\""""+x+"""\") {
     name
-    forkCount   
+    forkCount
+    stargazerCount
+    releases(first:0){
+      totalCount
+    }
+    issues(states:CLOSED) {
+      totalCount
+    }
+    languages(first:10) {
+      totalCount
+      totalSize
+      edges{
+        size
+      }
+      nodes{
+        name 
+      }
+    }
+	refs(refPrefix: "refs/heads/", first: 100){
+        nodes{
+          name
+          target {
+          ... on Commit {
+            id
+            history(first: 0) {
+              totalCount
+            }
+          }
+        }
+        }
+    }
   },
   repoB: repository(owner:"Kaggle", name:"docker-python") {
     name
     forkCount
+    releases(first:0){
+      totalCount
+    }
+     refs(refPrefix: "refs/heads/", first: 100){
+        nodes{
+          name
+          target {
+          ... on Commit {
+            id
+            history(first: 0) {
+              totalCount
+            }
+          }
+        }
+        }
+    }
+    issues(states:CLOSED) {
+      totalCount
+    }
   }
 }
 """
-head = {'Authorization': 'Bearer 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'}
+head = {'Authorization': 'Bearer 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'}
 response = requests.post(url=url, json={"query": body},headers=head)
 print("response status code: ", response.status_code)
 if response.status_code == 200:
