@@ -14,6 +14,7 @@ if __name__ == '__main__':
     main()
 
 import requests
+import json
 
 baseUrl = 'https://api.github.com'
 owner='Kaggle'
@@ -43,10 +44,102 @@ parameters = {'Authorization': 'Bearer '+accessToken}
     #print(branchNames)
 
 url = "https://api.github.com/graphql"
-x='kagglehub'
+organizationName='Kaggle'
+getAllRepos="""
+query{
+  organization(login: \""""+organizationName+"""\") {
+    repositories(first: 20) {
+      totalCount
+      nodes {
+        name
+      }
+    }
+  }
+}
+"""
+head = {'Authorization': 'Bearer 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'}
+response = requests.post(url=url, json={"query": getAllRepos},headers=head)
+print("response status code: ", response.status_code)
+if response.status_code == 200:
+    print("response : ", response.content)
+numberOfRepos=response.json()['data']['organization']['repositories']['totalCount']
+nameOfRepos=response.json()['data']['organization']['repositories']['nodes']
+query="""
+query{
+
+"""
+x=0
+for repo in nameOfRepos:
+    print(repo['name'])
+    tempQuery="""
+    : repository(owner:\""""+organizationName+"""\", name:\""""+repo['name']+"""\") {
+    name
+    forkCount
+    stargazerCount
+    releases(first:0){
+      totalCount
+    }
+    issues(states:CLOSED) {
+      totalCount
+    }
+    languages(first:10) {
+      totalCount
+      totalSize
+      edges{
+        size
+      }
+      nodes{
+        name 
+      }
+    }
+	refs(refPrefix: "refs/heads/", first: 100){
+        nodes{
+          name
+          target {
+          ... on Commit {
+            history(first: 0) {
+              totalCount
+            }
+          }
+        }
+        }
+    }
+  }
+    """
+    query=query+'repo'+str(x)+tempQuery+""",
+    """
+    x=x+1
+query=query+"""
+}"""
+
+counter=0
+
+response = requests.post(url=url, json={"query": query},headers=head)
+print("response status code: ", response.status_code)
+if response.status_code == 200:
+    organizationData={}
+    repoData=[]
+    while counter<numberOfRepos:
+        repo=response.json()['data']['repo'+str(counter)]
+        tempData={}
+        tempData['name']=repo['name']
+        tempData['stars']=repo['stargazerCount']
+        tempData['forks']=repo['forkCount']
+        repoData.append(tempData)
+        organizationData[organizationName]=repoData
+        counter=counter+1
+    json_data = json.dumps(organizationData, indent=2)
+    file_path = "Data/AllRepositoryInformation.json"
+    with open(file_path, 'w') as json_file:
+        json_file.write(json_data)
+
+
+
+
+
 body = """
 query {
-  repoA: repository(owner:"Kaggle", name:\""""+x+"""\") {
+  repoA: repository(owner:"Kaggle", name:\""""+'gyfy'+"""\") {
     name
     forkCount
     stargazerCount
@@ -105,8 +198,3 @@ query {
   }
 }
 """
-head = {'Authorization': 'Bearer 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'}
-response = requests.post(url=url, json={"query": body},headers=head)
-print("response status code: ", response.status_code)
-if response.status_code == 200:
-    print("response : ", response.content)
