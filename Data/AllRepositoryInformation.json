@@ -1,0 +1,1017 @@
+{
+  "Kaggle": [
+    {
+      "name": "docker-julia",
+      "stars": 36,
+      "forks": 13,
+      "closedIssues": 3,
+      "releases": 0,
+      "languageStatistics": {
+        "numberOfLanguage": 3,
+        "totalSizeInBytesofFilesWrittenInLanguage": 5679,
+        "listOfLanguage": [
+          {
+            "name": "Julia",
+            "sizeInBytesofFilesWrittenInLanguage": 1364
+          },
+          {
+            "name": "Shell",
+            "sizeInBytesofFilesWrittenInLanguage": 787
+          },
+          {
+            "name": "Dockerfile",
+            "sizeInBytesofFilesWrittenInLanguage": 3528
+          }
+        ]
+      },
+      "branchStatistics": {
+        "numberOfBranch": 1,
+        "listOfBranches": [
+          {
+            "name": "main",
+            "branchCommits": 84
+          }
+        ]
+      },
+      "commits": 84,
+      "tags": 0
+    },
+    {
+      "name": "docker-python",
+      "stars": 2302,
+      "forks": 959,
+      "closedIssues": 316,
+      "releases": 148,
+      "languageStatistics": {
+        "numberOfLanguage": 6,
+        "totalSizeInBytesofFilesWrittenInLanguage": 209126,
+        "listOfLanguage": [
+          {
+            "name": "Python",
+            "sizeInBytesofFilesWrittenInLanguage": 172466
+          },
+          {
+            "name": "Shell",
+            "sizeInBytesofFilesWrittenInLanguage": 17083
+          },
+          {
+            "name": "Smarty",
+            "sizeInBytesofFilesWrittenInLanguage": 458
+          },
+          {
+            "name": "Dockerfile",
+            "sizeInBytesofFilesWrittenInLanguage": 12704
+          },
+          {
+            "name": "Jupyter Notebook",
+            "sizeInBytesofFilesWrittenInLanguage": 1778
+          },
+          {
+            "name": "PureBasic",
+            "sizeInBytesofFilesWrittenInLanguage": 4637
+          }
+        ]
+      },
+      "branchStatistics": {
+        "numberOfBranch": 28,
+        "listOfBranches": [
+          {
+            "name": "add-gcvit-to-kaggle-docker-image",
+            "branchCommits": 2202
+          },
+          {
+            "name": "add-pytorch-geometrics",
+            "branchCommits": 1383
+          },
+          {
+            "name": "ephemeral-p100",
+            "branchCommits": 2028
+          },
+          {
+            "name": "fix-broken-build",
+            "branchCommits": 2250
+          },
+          {
+            "name": "fix-image-push",
+            "branchCommits": 2313
+          },
+          {
+            "name": "fix-invalid-signature",
+            "branchCommits": 2153
+          },
+          {
+            "name": "fix-numpy-scipy-warn",
+            "branchCommits": 2193
+          },
+          {
+            "name": "layer-cache",
+            "branchCommits": 2261
+          },
+          {
+            "name": "main",
+            "branchCommits": 2313
+          },
+          {
+            "name": "pl_latest",
+            "branchCommits": 1942
+          },
+          {
+            "name": "psbang-slack",
+            "branchCommits": 2237
+          },
+          {
+            "name": "pytorch-xla",
+            "branchCommits": 1754
+          },
+          {
+            "name": "require-hashes",
+            "branchCommits": 2201
+          },
+          {
+            "name": "retry",
+            "branchCommits": 2031
+          },
+          {
+            "name": "rm-ggplot",
+            "branchCommits": 2267
+          },
+          {
+            "name": "rm-horovod",
+            "branchCommits": 1992
+          },
+          {
+            "name": "rm-theano-pymc-pin",
+            "branchCommits": 1945
+          },
+          {
+            "name": "rohitgr7-ci",
+            "branchCommits": 1746
+          },
+          {
+            "name": "tmp-gpu-test",
+            "branchCommits": 2033
+          },
+          {
+            "name": "unpin-datasets",
+            "branchCommits": 2299
+          },
+          {
+            "name": "unpin-torchmetrics",
+            "branchCommits": 1972
+          },
+          {
+            "name": "upgrade-cudnn",
+            "branchCommits": 2094
+          },
+          {
+            "name": "upgrade-keras3",
+            "branchCommits": 2316
+          },
+          {
+            "name": "upgrade-m110",
+            "branchCommits": 2248
+          },
+          {
+            "name": "upgrade-pytorch-1.12",
+            "branchCommits": 2005
+          },
+          {
+            "name": "upgrade-tf",
+            "branchCommits": 2262
+          },
+          {
+            "name": "upgrade-tf-2.8",
+            "branchCommits": 1998
+          },
+          {
+            "name": "verify_py_metrics_reqs",
+            "branchCommits": 2234
+          }
+        ]
+      },
+      "commits": 58672,
+      "tags": 196
+    },
+    {
+      "name": "docker-rstats",
+      "stars": 138,
+      "forks": 91,
+      "closedIssues": 35,
+      "releases": 72,
+      "languageStatistics": {
+        "numberOfLanguage": 5,
+        "totalSizeInBytesofFilesWrittenInLanguage": 37657,
+        "listOfLanguage": [
+          {
+            "name": "R",
+            "sizeInBytesofFilesWrittenInLanguage": 20275
+          },
+          {
+            "name": "Shell",
+            "sizeInBytesofFilesWrittenInLanguage": 9139
+          },
+          {
+            "name": "Smarty",
+            "sizeInBytesofFilesWrittenInLanguage": 458
+          },
+          {
+            "name": "Dockerfile",
+            "sizeInBytesofFilesWrittenInLanguage": 7228
+          },
+          {
+            "name": "Jupyter Notebook",
+            "sizeInBytesofFilesWrittenInLanguage": 557
+          }
+        ]
+      },
+      "branchStatistics": {
+        "numberOfBranch": 1,
+        "listOfBranches": [
+          {
+            "name": "main",
+            "branchCommits": 438
+          }
+        ]
+      },
+      "commits": 438,
+      "tags": 91
+    },
+    {
+      "name": "pipelinehelpers",
+      "stars": 7,
+      "forks": 6,
+      "closedIssues": 0,
+      "releases": 0,
+      "languageStatistics": {
+        "numberOfLanguage": 1,
+        "totalSizeInBytesofFilesWrittenInLanguage": 3577,
+        "listOfLanguage": [
+          {
+            "name": "R",
+            "sizeInBytesofFilesWrittenInLanguage": 3577
+          }
+        ]
+      },
+      "branchStatistics": {
+        "numberOfBranch": 1,
+        "listOfBranches": [
+          {
+            "name": "master",
+            "branchCommits": 2
+          }
+        ]
+      },
+      "commits": 2,
+      "tags": 0
+    },
+    {
+      "name": "docker-rcran",
+      "stars": 18,
+      "forks": 14,
+      "closedIssues": 3,
+      "releases": 0,
+      "languageStatistics": {
+        "numberOfLanguage": 3,
+        "totalSizeInBytesofFilesWrittenInLanguage": 29556,
+        "listOfLanguage": [
+          {
+            "name": "R",
+            "sizeInBytesofFilesWrittenInLanguage": 5769
+          },
+          {
+            "name": "Dockerfile",
+            "sizeInBytesofFilesWrittenInLanguage": 2082
+          },
+          {
+            "name": "Shell",
+            "sizeInBytesofFilesWrittenInLanguage": 21705
+          }
+        ]
+      },
+      "branchStatistics": {
+        "numberOfBranch": 6,
+        "listOfBranches": [
+          {
+            "name": "leaflet-bis",
+            "branchCommits": 434
+          },
+          {
+            "name": "main",
+            "branchCommits": 457
+          },
+          {
+            "name": "r-4-2-2",
+            "branchCommits": 402
+          },
+          {
+            "name": "r-4.3.0",
+            "branchCommits": 437
+          },
+          {
+            "name": "sklearn-import",
+            "branchCommits": 360
+          },
+          {
+            "name": "torch",
+            "branchCommits": 241
+          }
+        ]
+      },
+      "commits": 2331,
+      "tags": 0
+    },
+    {
+      "name": "kaggle-api",
+      "stars": 5764,
+      "forks": 1056,
+      "closedIssues": 295,
+      "releases": 6,
+      "languageStatistics": {
+        "numberOfLanguage": 1,
+        "totalSizeInBytesofFilesWrittenInLanguage": 661119,
+        "listOfLanguage": [
+          {
+            "name": "Python",
+            "sizeInBytesofFilesWrittenInLanguage": 661119
+          }
+        ]
+      },
+      "branchStatistics": {
+        "numberOfBranch": 6,
+        "listOfBranches": [
+          {
+            "name": "1.5.16",
+            "branchCommits": 152
+          },
+          {
+            "name": "1.5.17",
+            "branchCommits": 153
+          },
+          {
+            "name": "1.6.0a3",
+            "branchCommits": 152
+          },
+          {
+            "name": "local-testing",
+            "branchCommits": 146
+          },
+          {
+            "name": "main",
+            "branchCommits": 154
+          },
+          {
+            "name": "moshel-edit-kaggle-models-extended",
+            "branchCommits": 133
+          }
+        ]
+      },
+      "commits": 890,
+      "tags": 6
+    },
+    {
+      "name": "learntools",
+      "stars": 424,
+      "forks": 227,
+      "closedIssues": 15,
+      "releases": 0,
+      "languageStatistics": {
+        "numberOfLanguage": 3,
+        "totalSizeInBytesofFilesWrittenInLanguage": 3694899,
+        "listOfLanguage": [
+          {
+            "name": "Python",
+            "sizeInBytesofFilesWrittenInLanguage": 734420
+          },
+          {
+            "name": "Jupyter Notebook",
+            "sizeInBytesofFilesWrittenInLanguage": 2934427
+          },
+          {
+            "name": "Shell",
+            "sizeInBytesofFilesWrittenInLanguage": 26052
+          }
+        ]
+      },
+      "branchStatistics": {
+        "numberOfBranch": 32,
+        "listOfBranches": [
+          {
+            "name": "add-halite",
+            "branchCommits": 1379
+          },
+          {
+            "name": "advsql-update",
+            "branchCommits": 1134
+          },
+          {
+            "name": "alexisbcook-patch-1",
+            "branchCommits": 2413
+          },
+          {
+            "name": "alexisbcook-patch-2",
+            "branchCommits": 2501
+          },
+          {
+            "name": "alexisbcook-patch-3",
+            "branchCommits": 2510
+          },
+          {
+            "name": "alexisbcook-patch-4",
+            "branchCommits": 2551
+          },
+          {
+            "name": "alexisbcook-patch-5",
+            "branchCommits": 2584
+          },
+          {
+            "name": "alexisbcook-patch-6",
+            "branchCommits": 2602
+          },
+          {
+            "name": "course-level-forums",
+            "branchCommits": 2323
+          },
+          {
+            "name": "dl_course_update",
+            "branchCommits": 977
+          },
+          {
+            "name": "dl-course-edits",
+            "branchCommits": 1556
+          },
+          {
+            "name": "dl-for-cv",
+            "branchCommits": 1999
+          },
+          {
+            "name": "ds-portfolio",
+            "branchCommits": 1462
+          },
+          {
+            "name": "feature_engineering",
+            "branchCommits": 966
+          },
+          {
+            "name": "first-extra-credit",
+            "branchCommits": 1293
+          },
+          {
+            "name": "fix-seaborn-whitegrid",
+            "branchCommits": 2617
+          },
+          {
+            "name": "freeze-markdown",
+            "branchCommits": 1969
+          },
+          {
+            "name": "geo-forking",
+            "branchCommits": 1136
+          },
+          {
+            "name": "image-hosting",
+            "branchCommits": 2599
+          },
+          {
+            "name": "imledits",
+            "branchCommits": 2487
+          },
+          {
+            "name": "intro2programming",
+            "branchCommits": 2607
+          },
+          {
+            "name": "master",
+            "branchCommits": 2626
+          },
+          {
+            "name": "pculliton-sql-ex3-patch",
+            "branchCommits": 2605
+          },
+          {
+            "name": "pd-modifying-lesson",
+            "branchCommits": 478
+          },
+          {
+            "name": "remove-distplot",
+            "branchCommits": 2481
+          },
+          {
+            "name": "remove-ts-with-siraj-checking-code",
+            "branchCommits": 1086
+          },
+          {
+            "name": "rm-chardet-use",
+            "branchCommits": 2578
+          },
+          {
+            "name": "sql-cleanup",
+            "branchCommits": 800
+          },
+          {
+            "name": "temp-message",
+            "branchCommits": 1087
+          },
+          {
+            "name": "test-tracking-on-kaggle",
+            "branchCommits": 788
+          },
+          {
+            "name": "ts-course",
+            "branchCommits": 2390
+          },
+          {
+            "name": "updated-chicago-trips",
+            "branchCommits": 2546
+          }
+        ]
+      },
+      "commits": 61130,
+      "tags": 2
+    },
+    {
+      "name": "jupyterlab",
+      "stars": 42,
+      "forks": 10,
+      "closedIssues": 1,
+      "releases": 0,
+      "languageStatistics": {
+        "numberOfLanguage": 5,
+        "totalSizeInBytesofFilesWrittenInLanguage": 40211,
+        "listOfLanguage": [
+          {
+            "name": "Dockerfile",
+            "sizeInBytesofFilesWrittenInLanguage": 392
+          },
+          {
+            "name": "Shell",
+            "sizeInBytesofFilesWrittenInLanguage": 101
+          },
+          {
+            "name": "JavaScript",
+            "sizeInBytesofFilesWrittenInLanguage": 103
+          },
+          {
+            "name": "TypeScript",
+            "sizeInBytesofFilesWrittenInLanguage": 38759
+          },
+          {
+            "name": "CSS",
+            "sizeInBytesofFilesWrittenInLanguage": 856
+          }
+        ]
+      },
+      "branchStatistics": {
+        "numberOfBranch": 3,
+        "listOfBranches": [
+          {
+            "name": "dependabot/npm_and_yarn/moment-2.29.4",
+            "branchCommits": 36
+          },
+          {
+            "name": "fix-working-directory",
+            "branchCommits": 36
+          },
+          {
+            "name": "master",
+            "branchCommits": 36
+          }
+        ]
+      },
+      "commits": 108,
+      "tags": 0
+    },
+    {
+      "name": "kaggle-environments",
+      "stars": 266,
+      "forks": 138,
+      "closedIssues": 43,
+      "releases": 6,
+      "languageStatistics": {
+        "numberOfLanguage": 8,
+        "totalSizeInBytesofFilesWrittenInLanguage": 2730602,
+        "listOfLanguage": [
+          {
+            "name": "Python",
+            "sizeInBytesofFilesWrittenInLanguage": 548414
+          },
+          {
+            "name": "Jupyter Notebook",
+            "sizeInBytesofFilesWrittenInLanguage": 1847244
+          },
+          {
+            "name": "JavaScript",
+            "sizeInBytesofFilesWrittenInLanguage": 128302
+          },
+          {
+            "name": "HTML",
+            "sizeInBytesofFilesWrittenInLanguage": 26101
+          },
+          {
+            "name": "Shell",
+            "sizeInBytesofFilesWrittenInLanguage": 16155
+          },
+          {
+            "name": "Dockerfile",
+            "sizeInBytesofFilesWrittenInLanguage": 2059
+          },
+          {
+            "name": "Java",
+            "sizeInBytesofFilesWrittenInLanguage": 77923
+          },
+          {
+            "name": "TypeScript",
+            "sizeInBytesofFilesWrittenInLanguage": 84404
+          }
+        ]
+      },
+      "branchStatistics": {
+        "numberOfBranch": 67,
+        "listOfBranches": [
+          {
+            "name": "181",
+            "branchCommits": 304
+          },
+          {
+            "name": "agent-logs",
+            "branchCommits": 164
+          },
+          {
+            "name": "agent-logs-2",
+            "branchCommits": 181
+          },
+          {
+            "name": "agent-parallel",
+            "branchCommits": 167
+          },
+          {
+            "name": "agent-rename",
+            "branchCommits": 355
+          },
+          {
+            "name": "color-swap",
+            "branchCommits": 354
+          },
+          {
+            "name": "core-refactor",
+            "branchCommits": 142
+          },
+          {
+            "name": "core-refactor-2",
+            "branchCommits": 143
+          },
+          {
+            "name": "daikikatsuragawa/PEP8",
+            "branchCommits": 87
+          },
+          {
+            "name": "dollar_auction",
+            "branchCommits": 302
+          },
+          {
+            "name": "example-env",
+            "branchCommits": 301
+          },
+          {
+            "name": "fix_test",
+            "branchCommits": 170
+          },
+          {
+            "name": "fix-connectx-notebooko",
+            "branchCommits": 58
+          },
+          {
+            "name": "gfootball-oom",
+            "branchCommits": 155
+          },
+          {
+            "name": "gpu-image",
+            "branchCommits": 194
+          },
+          {
+            "name": "halite-less-invalid",
+            "branchCommits": 105
+          },
+          {
+            "name": "halite-spawn-update",
+            "branchCommits": 90
+          },
+          {
+            "name": "halite-v2",
+            "branchCommits": 79
+          },
+          {
+            "name": "hg-scoring",
+            "branchCommits": 300
+          },
+          {
+            "name": "hungry_geese",
+            "branchCommits": 280
+          },
+          {
+            "name": "hungry-geese-display",
+            "branchCommits": 277
+          },
+          {
+            "name": "hungry-geese-visuals",
+            "branchCommits": 281
+          },
+          {
+            "name": "init-docker",
+            "branchCommits": 74
+          },
+          {
+            "name": "legend-lines",
+            "branchCommits": 115
+          },
+          {
+            "name": "llm-20-questions",
+            "branchCommits": 363
+          },
+          {
+            "name": "luxai2022",
+            "branchCommits": 378
+          },
+          {
+            "name": "mab",
+            "branchCommits": 287
+          },
+          {
+            "name": "master",
+            "branchCommits": 420
+          },
+          {
+            "name": "multi-file-py",
+            "branchCommits": 348
+          },
+          {
+            "name": "new_core",
+            "branchCommits": 292
+          },
+          {
+            "name": "no-subprocess-run",
+            "branchCommits": 41
+          },
+          {
+            "name": "overage-time",
+            "branchCommits": 265
+          },
+          {
+            "name": "parallel",
+            "branchCommits": 160
+          },
+          {
+            "name": "pculliton-flip-thresholds",
+            "branchCommits": 273
+          },
+          {
+            "name": "pculliton-json-patch",
+            "branchCommits": 273
+          },
+          {
+            "name": "qol",
+            "branchCommits": 156
+          },
+          {
+            "name": "qstanczyk-patch-1",
+            "branchCommits": 175
+          },
+          {
+            "name": "qstanczyk-patch-2-1",
+            "branchCommits": 181
+          },
+          {
+            "name": "qstanczyk-patch-2",
+            "branchCommits": 181
+          },
+          {
+            "name": "qstanczyk-patch-3",
+            "branchCommits": 184
+          },
+          {
+            "name": "qstanczyk-patch-4",
+            "branchCommits": 186
+          },
+          {
+            "name": "qstanczyk-patch-5",
+            "branchCommits": 194
+          },
+          {
+            "name": "qstanczyk-patch-6",
+            "branchCommits": 194
+          },
+          {
+            "name": "qstanczyk-patch-7",
+            "branchCommits": 198
+          },
+          {
+            "name": "qstanczyk-patch-8",
+            "branchCommits": 201
+          },
+          {
+            "name": "qstanczyk-patch-9",
+            "branchCommits": 203
+          },
+          {
+            "name": "qstanczyk-patch-10",
+            "branchCommits": 210
+          },
+          {
+            "name": "qstanczyk-patch-11",
+            "branchCommits": 209
+          },
+          {
+            "name": "qstanczyk-patch-12",
+            "branchCommits": 213
+          },
+          {
+            "name": "qstanczyk-patch-13",
+            "branchCommits": 215
+          },
+          {
+            "name": "qstanczyk-patch-14",
+            "branchCommits": 216
+          },
+          {
+            "name": "qstanczyk-patch-15",
+            "branchCommits": 221
+          },
+          {
+            "name": "qstanczyk-patch-16",
+            "branchCommits": 221
+          },
+          {
+            "name": "qstanczyk-patch-17",
+            "branchCommits": 229
+          },
+          {
+            "name": "qstanczyk-patch-18",
+            "branchCommits": 241
+          },
+          {
+            "name": "qstanczyk-patch-19",
+            "branchCommits": 239
+          },
+          {
+            "name": "qstanczyk-patch-20",
+            "branchCommits": 245
+          },
+          {
+            "name": "qstanczyk-patch-21",
+            "branchCommits": 242
+          },
+          {
+            "name": "qstanczyk-patch-22",
+            "branchCommits": 246
+          },
+          {
+            "name": "qstanczyk-patch-23",
+            "branchCommits": 254
+          },
+          {
+            "name": "renderer-scoreboard",
+            "branchCommits": 72
+          },
+          {
+            "name": "robust-environment-errors",
+            "branchCommits": 202
+          },
+          {
+            "name": "rps",
+            "branchCommits": 193
+          },
+          {
+            "name": "rps-ties",
+            "branchCommits": 262
+          },
+          {
+            "name": "speed-controls",
+            "branchCommits": 137
+          },
+          {
+            "name": "temp-api",
+            "branchCommits": 143
+          },
+          {
+            "name": "update_football",
+            "branchCommits": 193
+          }
+        ]
+      },
+      "commits": 14234,
+      "tags": 19
+    },
+    {
+      "name": ".allstar",
+      "stars": 1,
+      "forks": 0,
+      "closedIssues": 0,
+      "releases": 0,
+      "languageStatistics": {
+        "numberOfLanguage": 0,
+        "totalSizeInBytesofFilesWrittenInLanguage": 0,
+        "listOfLanguage": []
+      },
+      "branchStatistics": {
+        "numberOfBranch": 1,
+        "listOfBranches": [
+          {
+            "name": "master",
+            "branchCommits": 1
+          }
+        ]
+      },
+      "commits": 1,
+      "tags": 0
+    },
+    {
+      "name": "kagglehub",
+      "stars": 7,
+      "forks": 1,
+      "closedIssues": 0,
+      "releases": 4,
+      "languageStatistics": {
+        "numberOfLanguage": 3,
+        "totalSizeInBytesofFilesWrittenInLanguage": 139484,
+        "listOfLanguage": [
+          {
+            "name": "Python",
+            "sizeInBytesofFilesWrittenInLanguage": 137432
+          },
+          {
+            "name": "Dockerfile",
+            "sizeInBytesofFilesWrittenInLanguage": 369
+          },
+          {
+            "name": "Shell",
+            "sizeInBytesofFilesWrittenInLanguage": 1683
+          }
+        ]
+      },
+      "branchStatistics": {
+        "numberOfBranch": 10,
+        "listOfBranches": [
+          {
+            "name": "add_user_agent",
+            "branchCommits": 50
+          },
+          {
+            "name": "integration_tests",
+            "branchCommits": 120
+          },
+          {
+            "name": "login",
+            "branchCommits": 23
+          },
+          {
+            "name": "login_3",
+            "branchCommits": 52
+          },
+          {
+            "name": "login_4",
+            "branchCommits": 22
+          },
+          {
+            "name": "main",
+            "branchCommits": 76
+          },
+          {
+            "name": "model_upload_rosbo",
+            "branchCommits": 55
+          },
+          {
+            "name": "mohami2000-patch-1",
+            "branchCommits": 26
+          },
+          {
+            "name": "nit-readme",
+            "branchCommits": 7
+          },
+          {
+            "name": "rename_resolver",
+            "branchCommits": 42
+          }
+        ]
+      },
+      "commits": 473,
+      "tags": 11
+    }
+  ],
+  "overAllStatistics": {
+    "totalStars": 9005,
+    "medianStars": 42,
+    "totalForks": 2515,
+    "medianForks": 14,
+    "totalClosedIssues": 711,
+    "medianClosedIssues": 3,
+    "totalRelease": 236,
+    "medianRelease": 0,
+    "totalCommits": 138363,
+    "medianCommits": 473,
+    "totalTags": 325,
+    "medianTags": 2,
+    "totalBranches": 156,
+    "medianBranches": 6,
+    "totalLangugaes": 38,
+    "medianLanguages": 3
+  }
+}
